@@ -1,0 +1,36 @@
+﻿<Window x:Class="OOP_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="White" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="First Name&#xD;&#xA;" HorizontalAlignment="Left" Margin="53,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name&#xD;&#xA;" HorizontalAlignment="Left" Margin="54,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Middle Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,61,0,0"/>
+        <TextBox Name ="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="122,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtFirstName_TextChanged"/>
+        <TextBox Name ="txtMiddleName" HorizontalAlignment="Left" Height="23" Margin="122,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtMiddleName_TextChanged"/>
+        <TextBox Name ="txtLastName" HorizontalAlignment="Left" Height="23" Margin="122,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtLastName_TextChanged"/>
+        <Button Content="Add Transaction" HorizontalAlignment="Left" Margin="321,317,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <ComboBox Name="cmbJewelry" HorizontalAlignment="Left" Margin="122,117,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.522,-1.348">
+            <ComboBoxItem Content="Necklace"/>
+            <ComboBoxItem Content="Bracelet"/>
+            <ComboBoxItem Content="Ring"/>
+            <ComboBoxItem Content="Earrings"/>
+        </ComboBox>
+        <Label Content="Jewelry" HorizontalAlignment="Left" Height="29" Margin="71,117,0,0" VerticalAlignment="Top" Width="56"/>
+        <Label Content="Birthdate" HorizontalAlignment="Left" Height="24" Margin="61,144,0,0" VerticalAlignment="Top" Width="61"/>
+        <RadioButton Name="rdbMale" Content="Male" HorizontalAlignment="Left" Height="31" Margin="157,212,0,0" VerticalAlignment="Top" Width="71" GroupName="Gender"/>
+        <RadioButton Name="rdbFemale" Content="Female" HorizontalAlignment="Left" Height="30" Margin="233,212,0,0" VerticalAlignment="Top" Width="66" GroupName="Gender"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Height="31" Margin="71,205,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="Status" HorizontalAlignment="Left" Height="33" Margin="75,236,0,0" VerticalAlignment="Top" Width="47"/>
+        <RadioButton Name="rdbSingle" Content="Single" HorizontalAlignment="Left" Height="26" Margin="157,242,0,0" VerticalAlignment="Top" Width="89" GroupName="Status"/>
+        <RadioButton Name="rdbMarried" Content="Married" HorizontalAlignment="Left" Height="27" Margin="233,242,0,0" VerticalAlignment="Top" Width="112" GroupName="Status"/>
+        <TextBox Name="txtBirthDate" HorizontalAlignment="Left" Height="22" Margin="122,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBirthDate_TextChanged"/>
+        <Label Content="Address" HorizontalAlignment="Left" Height="23" Margin="61,177,0,0" VerticalAlignment="Top" Width="58"/>
+        <TextBox Name="txtAddress" HorizontalAlignment="Left" Height="24" Margin="122,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>

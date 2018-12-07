@@ -1,0 +1,17 @@
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.exe.config
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.exe
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.pdb
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csprojAssemblyReference.cache
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\MainWindow.g.cs
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\App.g.cs
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project_MarkupCompile.cache
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project_MarkupCompile.lref
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\MainWindow.baml
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.g.resources
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.Properties.Resources.resources
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csproj.GenerateResource.cache
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csproj.CoreCompileInputs.cache
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.exe
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.pdb
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.g.cs
+C:\Users\TRAremitar\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.baml
